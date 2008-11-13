@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>new Runnable() {
+	@Override
+	public void run() {
+		$0
+	}
+}</string>
+	<key>name</key>
+	<string>Runnable</string>
+	<key>scope</key>
+	<string>source.java</string>
+	<key>tabTrigger</key>
+	<string>Run</string>
+	<key>uuid</key>
+	<string>B3D3D832-4715-4002-8953-A06FB365A34E</string>
+</dict>
+</plist>

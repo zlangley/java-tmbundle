@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public ${2:String} get${1/./\u$0/}() {
+	return ${1:attribute};
+}</string>
+	<key>name</key>
+	<string>Insert getter</string>
+	<key>scope</key>
+	<string>source.java</string>
+	<key>tabTrigger</key>
+	<string>r</string>
+	<key>uuid</key>
+	<string>C247BC54-2981-4302-8D05-06F3FB007094</string>
+</dict>
+</plist>

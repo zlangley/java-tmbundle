@@ -2,6 +2,45 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>AF44455E-FE45-44FC-BC6F-604CFE6EDA32</string>
+			<string>850F3ECC-CD91-4FC4-9C6F-67CAA0F1C94A</string>
+			<string>------------------------------------</string>
+			<string>7196A544-163C-40EC-BBDF-079A070117B6</string>
+			<string>------------------------------------</string>
+			<string>E6A8DF57-B2F8-4082-9016-B061AC401DBA</string>
+			<string>1B25996B-0E77-41C9-B59F-F4716E056F55</string>
+			<string>2322375C-AEC1-4CE2-97DB-F03887F16A27</string>
+			<string>------------------------------------</string>
+			<string>9843BB62-DAAE-4E7B-8E46-38E68A53F1D6</string>
+			<string>98CE21C3-A720-4F57-9127-BDE37C523F37</string>
+			<string>C5828E22-E681-4A0A-891D-976ABAAF7C79</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>7196A544-163C-40EC-BBDF-079A070117B6</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>B45EE96B-9DDB-4451-8E01-3DD511FBB953</string>
+					<string>0C488250-BC5D-45D2-9F88-1B3C24A4B6E7</string>
+					<string>49A6A496-DD3E-4DEF-9DBD-F24E13DCBEBC</string>
+					<string>------------------------------------</string>
+					<string>67EAB661-C7BD-430B-A5EC-2162C1BDDF70</string>
+					<string>AF090924-F7B1-452A-8F25-D16849CB1FDA</string>
+					<string>------------------------------------</string>
+					<string>87F23E05-CAD3-4860-BD8F-B96B7EF6CF97</string>
+					<string>F6B05ACC-6396-4519-9DFB-39FD7D44F22A</string>
+					<string>F3606C9F-04BE-4764-B320-A031068EA818</string>
+				</array>
+				<key>name</key>
+				<string>Control Flow</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>Java</string>
 	<key>ordering</key>
@@ -15,11 +54,11 @@
 		<string>B45EE96B-9DDB-4451-8E01-3DD511FBB953</string>
 		<string>0C488250-BC5D-45D2-9F88-1B3C24A4B6E7</string>
 		<string>49A6A496-DD3E-4DEF-9DBD-F24E13DCBEBC</string>
-		<string>67EAB661-C7BD-430B-A5EC-2162C1BDDF70</string>
 		<string>87F23E05-CAD3-4860-BD8F-B96B7EF6CF97</string>
 		<string>F6B05ACC-6396-4519-9DFB-39FD7D44F22A</string>
 		<string>F3606C9F-04BE-4764-B320-A031068EA818</string>
 		<string>AF090924-F7B1-452A-8F25-D16849CB1FDA</string>
+		<string>67EAB661-C7BD-430B-A5EC-2162C1BDDF70</string>
 		<string>E6A8DF57-B2F8-4082-9016-B061AC401DBA</string>
 		<string>9843BB62-DAAE-4E7B-8E46-38E68A53F1D6</string>
 		<string>98CE21C3-A720-4F57-9127-BDE37C523F37</string>

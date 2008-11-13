@@ -89,7 +89,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(assert|catch|extends|finally|implements|import|instaceof|package|new|throws|try)\b</string>
+			<string>\b(assert|catch|finally|import|instaceof|package|new|throws|try)\b</string>
 			<key>name</key>
 			<string>keyword.other.java</string>
 		</dict>
@@ -106,6 +106,83 @@
 			<string>entity.other.annotation.java</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.class.java</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.type.class.java</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.java</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>entity.other.inherited-class.java</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(class)\s+(\w+)(\s+(extends|implements)\s+(\w+))?</string>
+			<key>name</key>
+			<string>meta.class.java</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.interface.java</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.type.interface.java</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.java</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>entity.other.inherited-class.java</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(interface)\s+(\w+)(\s+(extends|implements)\s+(\w+))?</string>
+			<key>name</key>
+			<string>meta.interface.java</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.enum.java</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.type.enum.java</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(enum)\s+(\w+)</string>
+			<key>name</key>
+			<string>meta.enum.java</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>(\b|[a-z\.]+\.)[A-Z]\w+\b</string>
 			<key>name</key>
@@ -119,7 +196,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(boolean|byte|char|class|double|enum|float|int(erface)?|long|short|void)\b</string>
+			<string>\b(boolean|byte|char|double|float|int|long|short|void)\b</string>
 			<key>name</key>
 			<string>storage.type.java</string>
 		</dict>

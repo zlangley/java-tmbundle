@@ -83,7 +83,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(final|native|private|protected|public|static|synchronized|transient|volatile)\b</string>
+			<string>\b(abstract|final|native|private|protected|public|static|synchronized|transient|volatile)\b</string>
 			<key>name</key>
 			<string>keyword.modifiers.java</string>
 		</dict>

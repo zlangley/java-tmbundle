@@ -7,7 +7,7 @@
 	$0
 	break;</string>
 	<key>name</key>
-	<string>Case Statement</string>
+	<string>case</string>
 	<key>scope</key>
 	<string>source.java</string>
 	<key>tabTrigger</key>

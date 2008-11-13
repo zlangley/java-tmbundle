@@ -3,20 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>switch (${1:value}) {
-case ${2:condition}:
-	$0
-	break;
-default:
-	break;
-}</string>
+	<string>final </string>
 	<key>name</key>
-	<string>switch (value)</string>
+	<string>final</string>
 	<key>scope</key>
 	<string>source.java</string>
 	<key>tabTrigger</key>
-	<string>switch</string>
+	<string>fi</string>
 	<key>uuid</key>
-	<string>AF090924-F7B1-452A-8F25-D16849CB1FDA</string>
+	<string>BE67E643-A75C-4EE9-BEDD-CFACAB188BCB</string>
 </dict>
 </plist>

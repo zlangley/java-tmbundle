@@ -11,7 +11,7 @@ ${TM_SELECTED_TEXT/([\t ]*).*/$1/m}}${TM_SELECTED_TEXT/(\n$)|.*//}</string>
 	<key>keyEquivalent</key>
 	<string>^W</string>
 	<key>name</key>
-	<string>Try-Catch Block</string>
+	<string>try ... catch (Exception)</string>
 	<key>scope</key>
 	<string>source.java</string>
 	<key>tabTrigger</key>

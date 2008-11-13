@@ -7,7 +7,7 @@
 	$0
 } while (${1:condition});</string>
 	<key>name</key>
-	<string>Do-While Loop</string>
+	<string>do ... while (condition);</string>
 	<key>scope</key>
 	<string>source.java</string>
 	<key>tabTrigger</key>

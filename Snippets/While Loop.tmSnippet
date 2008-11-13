@@ -7,7 +7,7 @@
 	$0
 }</string>
 	<key>name</key>
-	<string>While Loop</string>
+	<string>while (condition)</string>
 	<key>scope</key>
 	<string>source.java</string>
 	<key>tabTrigger</key>

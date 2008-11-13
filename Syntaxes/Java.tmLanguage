@@ -89,15 +89,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(assert|catch|extends|finally|implements|import|instaceof|package|new|super|this|throws|try)\b</string>
+			<string>\b(assert|catch|extends|finally|implements|import|instaceof|package|new|throws|try)\b</string>
 			<key>name</key>
 			<string>keyword.other.java</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\w+(?=\s*\()</string>
+			<string>\b(this|super)\b</string>
 			<key>name</key>
-			<string>entity.name.function.java</string>
+			<string>variable.language.java</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -122,6 +122,12 @@
 			<string>\b(boolean|byte|char|class|double|enum|float|int(erface)?|long|short|void)\b</string>
 			<key>name</key>
 			<string>storage.type.java</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\w+(?=\s*\()</string>
+			<key>name</key>
+			<string>entity.name.function.java</string>
 		</dict>
 		<dict>
 			<key>begin</key>

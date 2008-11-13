@@ -107,7 +107,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\b|[a-z\.]+\.)[A-Z][a-zA-Z]+\b</string>
+			<string>(\b|[a-z\.]+\.)[A-Z]\w+\b</string>
 			<key>name</key>
 			<string>support.type.java</string>
 		</dict>

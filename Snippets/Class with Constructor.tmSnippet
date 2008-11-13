@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>public class ${1:${TM_FILENAME/(\w+).*|(.*)/(?1:$1)(?2:ClassName)/}} {
+	public $1(${2:arguments}) {
+		$0
+	}
+}</string>
+	<key>name</key>
+	<string>Class with Constructor</string>
+	<key>scope</key>
+	<string>source.java</string>
+	<key>tabTrigger</key>
+	<string>class</string>
+	<key>uuid</key>
+	<string>98CE21C3-A720-4F57-9127-BDE37C523F37</string>
+</dict>
+</plist>

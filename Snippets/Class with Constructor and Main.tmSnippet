@@ -4,17 +4,21 @@
 <dict>
 	<key>content</key>
 	<string>public class ${1:${TM_FILENAME/(\w+).*|(.*)/(?1:$1)(?2:ClassName)/}} {
-	public static void main(String[] args) {
+	public $1(${2:arguments}) {
 		$0
+	}
+
+	public static void main(String[] args) {
+		new $1();
 	}
 }</string>
 	<key>name</key>
-	<string>Class with Main</string>
+	<string>Class with Constructor and Main</string>
 	<key>scope</key>
 	<string>source.java</string>
 	<key>tabTrigger</key>
 	<string>class</string>
 	<key>uuid</key>
-	<string>C5828E22-E681-4A0A-891D-976ABAAF7C79</string>
+	<string>57D04DFE-126A-4B17-8BCC-8AAAFFA32564</string>
 </dict>
 </plist>

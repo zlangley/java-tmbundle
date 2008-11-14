@@ -9,8 +9,10 @@
 			<string>AF44455E-FE45-44FC-BC6F-604CFE6EDA32</string>
 			<string>850F3ECC-CD91-4FC4-9C6F-67CAA0F1C94A</string>
 			<string>------------------------------------</string>
-			<string>D1F47EE8-43A0-4F61-8797-6F0C29E69A72</string>
+			<string>F79D5687-8059-4BDC-9823-79086A9F8C2D</string>
 			<string>7196A544-163C-40EC-BBDF-079A070117B6</string>
+			<string>A5FCE323-3432-464A-962D-A903337EFF5F</string>
+			<string>D1F47EE8-43A0-4F61-8797-6F0C29E69A72</string>
 			<string>------------------------------------</string>
 			<string>E6A8DF57-B2F8-4082-9016-B061AC401DBA</string>
 			<string>1B25996B-0E77-41C9-B59F-F4716E056F55</string>
@@ -52,6 +54,25 @@
 				<key>name</key>
 				<string>Control Flow</string>
 			</dict>
+			<key>A5FCE323-3432-464A-962D-A903337EFF5F</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>4B5F0F40-E993-4FBD-90F1-0548D09E5B07</string>
+					<string>417679B6-E2F9-4EB5-B065-CFDA95211DD0</string>
+					<string>3A1AF8A6-7F55-45FD-8821-08A75F932DF5</string>
+					<string>EFF4B96F-A86F-4458-AAEE-127A32FD4BDC</string>
+					<string>BF36E04A-C4C5-4FDE-B3A9-6891950532EC</string>
+					<string>01D614A8-E95B-44F7-AAA2-4E29BD4AD430</string>
+					<string>9261D14E-C20F-4202-BC7E-B3DA985C2837</string>
+					<string>655B9AAA-7479-46A1-AFC4-35FB55B5D2BF</string>
+					<string>57184CD1-5CD3-41AC-BD78-315CFFF54218</string>
+					<string>61825D54-832F-45C9-B655-1B5FA7BC9648</string>
+					<string>CEA69BC7-D7D5-4997-8199-84AEEFA17B8A</string>
+				</array>
+				<key>name</key>
+				<string>Documentation</string>
+			</dict>
 			<key>D1F47EE8-43A0-4F61-8797-6F0C29E69A72</key>
 			<dict>
 				<key>items</key>
@@ -66,14 +87,25 @@
 				<key>name</key>
 				<string>Modifiers</string>
 			</dict>
+			<key>F79D5687-8059-4BDC-9823-79086A9F8C2D</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>A95454F6-AE6D-4638-AAA2-57A61CCB7E2A</string>
+					<string>5E205B3C-3AC1-4121-87E0-FB5E3B5E4273</string>
+					<string>9EE6939C-9320-478E-834C-7D6AD9FF7F2D</string>
+				</array>
+				<key>name</key>
+				<string>Annotations</string>
+			</dict>
 		</dict>
 	</dict>
 	<key>name</key>
 	<string>Java</string>
 	<key>ordering</key>
 	<array>
-		<string>426680E3-FF50-4DAD-8A7E-07CA794C62EC</string>
 		<string>E6E61257-73B9-42AC-B518-3BBB169EE10A</string>
+		<string>426680E3-FF50-4DAD-8A7E-07CA794C62EC</string>
 		<string>AF44455E-FE45-44FC-BC6F-604CFE6EDA32</string>
 		<string>850F3ECC-CD91-4FC4-9C6F-67CAA0F1C94A</string>
 		<string>F73A4078-D755-44B1-9BCB-B59102C0C23B</string>
@@ -94,6 +126,19 @@
 		<string>BAEC88BA-26EA-4AB0-B379-51FCC8CEE90D</string>
 		<string>2D6C4AB4-B661-4FEB-B458-47AC0C785F59</string>
 		<string>B45EE96B-9DDB-4451-8E01-3DD511FBB953</string>
+		<string>B0CA8DE6-6B31-4BE4-B633-1B268A708900</string>
+		<string>3A1AF8A6-7F55-45FD-8821-08A75F932DF5</string>
+		<string>EFF4B96F-A86F-4458-AAEE-127A32FD4BDC</string>
+		<string>BF36E04A-C4C5-4FDE-B3A9-6891950532EC</string>
+		<string>01D614A8-E95B-44F7-AAA2-4E29BD4AD430</string>
+		<string>9261D14E-C20F-4202-BC7E-B3DA985C2837</string>
+		<string>655B9AAA-7479-46A1-AFC4-35FB55B5D2BF</string>
+		<string>57184CD1-5CD3-41AC-BD78-315CFFF54218</string>
+		<string>61825D54-832F-45C9-B655-1B5FA7BC9648</string>
+		<string>CEA69BC7-D7D5-4997-8199-84AEEFA17B8A</string>
+		<string>A95454F6-AE6D-4638-AAA2-57A61CCB7E2A</string>
+		<string>5E205B3C-3AC1-4121-87E0-FB5E3B5E4273</string>
+		<string>9EE6939C-9320-478E-834C-7D6AD9FF7F2D</string>
 		<string>9843BB62-DAAE-4E7B-8E46-38E68A53F1D6</string>
 		<string>98CE21C3-A720-4F57-9127-BDE37C523F37</string>
 		<string>57D04DFE-126A-4B17-8BCC-8AAAFFA32564</string>
@@ -103,10 +148,13 @@
 		<string>75DB4624-C504-4344-BFAB-EF94821BAA7D</string>
 		<string>DFC0837E-F1A0-4D36-92A4-CFB8AFAEE262</string>
 		<string>68915712-22F9-4172-B134-F91A44497BB0</string>
+		<string>4B5F0F40-E993-4FBD-90F1-0548D09E5B07</string>
 		<string>E6A8DF57-B2F8-4082-9016-B061AC401DBA</string>
+		<string>417679B6-E2F9-4EB5-B065-CFDA95211DD0</string>
 		<string>B3D3D832-4715-4002-8953-A06FB365A34E</string>
 		<string>1B25996B-0E77-41C9-B59F-F4716E056F55</string>
 		<string>2322375C-AEC1-4CE2-97DB-F03887F16A27</string>
+		<string>137F1AEA-BC1E-4229-99BE-3D3C43E9D340</string>
 	</array>
 	<key>uuid</key>
 	<string>EA304633-311D-476D-A24D-BBCB822BBE63</string>

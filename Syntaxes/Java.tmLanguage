@@ -184,15 +184,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\b|[a-z\.]+\.)[A-Z]\w+\b</string>
-			<key>name</key>
-			<string>support.type.java</string>
-		</dict>
-		<dict>
-			<key>match</key>
 			<string>\b[A-Z_]+\b</string>
 			<key>name</key>
 			<string>support.constant.java</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\b|[a-z\.]+\.)[A-Z]\w+\b</string>
+			<key>name</key>
+			<string>support.type.java</string>
 		</dict>
 		<dict>
 			<key>match</key>
